@@ -1,6 +1,8 @@
 gioco sample
 =================
 
+- Tutorial for gioco with acctual code
+  - https://github.com/joaomdmoura/gioco
 - Create milestones and achieving it by reaching a specific point.
 - Tested with rails 4.0.2
 
