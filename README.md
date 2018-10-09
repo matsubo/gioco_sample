@@ -8,7 +8,8 @@ gioco sample
 
 Create rails ap and initialize gioco.
 --------------------
-```
+
+```ruby
 rails new a
 cd a
 echo "gem 'gioco'" >> Gemfile
@@ -21,7 +22,8 @@ rails g gioco:setup --points --kinds
 
 Prepare badges
 ------------------
-```
+
+```ruby
 bundle exec rake 'gioco:add_badge[good  ,         5, grade, 1 ]'
 bundle exec rake 'gioco:add_badge[great ,        10, grade, 1 ]'
 bundle exec rake 'gioco:add_badge[super great ,  50, grade, 1 ]'
@@ -33,7 +35,8 @@ bundle exec rake 'gioco:add_badge[fever       , 100, grade, 1 ]'
 
 Test the badge by achieving speicfic point
 -------------------
-```
+
+```ruby
 % rails console
 > user = User.new
 > user.name = 'matsu'
@@ -57,7 +60,8 @@ Test the badge by achieving speicfic point
 
 Test ranking
 ---------------
-```
+
+```ruby
 % rails console
 > Gioco::Ranking.generate
 ```
